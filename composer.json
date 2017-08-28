@@ -1,0 +1,12 @@
+{
+  "name": "Onyedinefu Joel/Registration landing page",
+  "description": "Students register their with their valid information and can pay for their dues Online.  ",
+  "minimum-stability": "stable",
+  "license": "open-source",
+  "authors": [
+    {
+      "name": "Onyedinefu Joel",
+      "email": "cooljoe464@gmail.com"
+    }
+  ]
+}
