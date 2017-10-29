@@ -66,7 +66,7 @@ if(isset($_REQUEST['register'])) {
                 $rum = mysqli_query($conn, $checkName);
 
                 if (mysqli_num_rows($rum) > 0) {
-                    echo "<script>alert('Email has already been used. Input a different one. Refresh the page')</script>";
+                    echo "<script>alert('Email already in use. Input a different one. Refresh the page')</script>";
                     exit();
                 }
                 $code = hash("sha256", rand());
